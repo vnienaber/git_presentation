@@ -41,6 +41,8 @@
     - changes in filenames
 - a commit can entail multiple changes
 
+---
+
 ### Go back in time! 
 
 ![Time Machine](https://media.giphy.com/media/Vqvr9BGv1vhDi/giphy.gif)
