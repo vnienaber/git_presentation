@@ -1,4 +1,7 @@
 
+# Git(hub) 
+
+---
 ### Why Git?
 
 - masterthesis.docx
@@ -8,7 +11,7 @@
 
 ---
 
-![Help](https://media.giphy.com/media/phJ6eMRFYI6CQ/giphy.gif)
+![Help](https://media.giphy.com/media/bPCwGUF2sKjyE/source.gif)
 
 ---
 
@@ -16,6 +19,11 @@
 - Example: This presentation 
 
 ---
+
+---
+
+![xccd](images/xkcd_comic.png)
+
 
 
 # Download the data - Fork und Clone
@@ -28,8 +36,6 @@
 @box[bg-blue text-black rounded](Repository#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed." ([Source](https://www.atlassian.com/git/tutorials/setting-up-a-repository)))
 
 @box[bg-blue text-black rounded](Fork#"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project." ([Source](https://help.github.com/articles/fork-a-repo/))
-
----
 
 
 ---
@@ -205,9 +211,6 @@ Grace + Mona
 
 ![git google](images/giterrors.png)
 
----
-
-![xccd](images/xkcd_comic.png)
 ---
 
 ### How do we want to use it?
