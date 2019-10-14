@@ -31,6 +31,14 @@
 
 
 ---
+### Commit
+
+@box[bg-blue text-black rounded](Commit#"A commit is the Git equivalent of a "save".[...] Git committing is an operation that acts upon a collection of files and directories." ([Source](https://www.atlassian.com/git/tutorials/saving-changes))
+
+--> Commit = A "Save Point" in Git. 
+
+
+---
 
 ### Commit
 
@@ -69,6 +77,15 @@ git commit -c ORIG_HEAD
 
 (Source: [https://git-scm.com/about/staging-area](https://git-scm.com/about/staging-area))
 
+
+---
+
+### Worklfow
+
+
+![Lokal](images/git_workflow_lokal_with_solution.png)
+
+
 ---
 
 ### Making a commit
@@ -84,65 +101,6 @@ Grace + Mona
 
 @olend
 
-
----
-
-# Download the data - Fork und Clone
-
----
-
-### Fork und Clone
-
-
-@box[bg-blue text-black rounded](Repository#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed." ([Source](https://www.atlassian.com/git/tutorials/setting-up-a-repository)))
-
-@box[bg-blue text-black rounded](Fork#"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project." ([Source](https://help.github.com/articles/fork-a-repo/))
-
-
----
-
-# Save Data - Add and Commit 
-
----
-### Commit
-
-@box[bg-blue text-black rounded](Commit#"A commit is the Git equivalent of a "save".[...] Git committing is an operation that acts upon a collection of files and directories." ([Source](https://www.atlassian.com/git/tutorials/saving-changes))
-
---> Commit = A "Save Point" in Git. 
-
---- 
-
-- git --version
-- git init
-- git status
-- git add .
-- git status
-- git commit - "First commit"
-
-- git remote add origin https://github.com/vnienaber/git_overview.git
-
-- git push -u origin master
-
-- git log
-
-- git checkout 178d1a3d2372ae60b3bdb5182278c52383dd07bc
-
-- git revert 178d1a3d2372ae60b3bdb5182278c52383dd07bc
-
-### Commit history
-
-![Git commits](images/commits.png)
-
----
-
-### Worklfow
-
-
-![Lokal](images/git_workflow_lokal_with_solution.png)
-
---- 
-
-# Sync data - Push und Pull
 
 ---
 
@@ -165,6 +123,15 @@ Grace + Mona
 
 ![Gitkraken Lokal Remote](images/gitkraken_remote_lokal.png)
 
+
+---
+
+
+
+# Sync data - Push und Pull
+
+
+
 ---
 
 
@@ -178,6 +145,8 @@ Grace + Mona
 ### Sync: Git Pull and Git Push
 
 ![Push Pull](images/push_pull.png)
+
+
 
 ---
 
@@ -206,6 +175,7 @@ Grace + Mona
 
 ![Push Pull](images/git_workflow_with_github_with_solution.png)
 
+
 ---
 
 # When things go wrong...
@@ -213,25 +183,6 @@ Grace + Mona
 ---
 
 ![git google](images/giterrors.png)
-
----
-
-### How do we want to use it?
-
-- command line
-- 
-
----
-
-### When things go wrong...
-
-@ol
-
-- so lange nichts gepusht ist, alles (halbwegs) gut
-    - oft committen!
-- zur Not: Codestand sichern und neu clonen 
-
-@olend 
 
 
 --- 
@@ -372,6 +323,78 @@ Grace + Mona
 - For Data Analytics / Data Science projects?
  
 @ulend
+
+
+---
+
+
+# Download the data - Fork und Clone
+
+---
+
+### Fork und Clone
+
+
+@box[bg-blue text-black rounded](Repository#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed." ([Source](https://www.atlassian.com/git/tutorials/setting-up-a-repository)))
+
+@box[bg-blue text-black rounded](Fork#"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project." ([Source](https://help.github.com/articles/fork-a-repo/))
+
+
+---
+
+# Save Data - Add and Commit 
+
+
+--- 
+
+- git --version
+- git init
+- git status
+- git add .
+- git status
+- git commit - "First commit"
+
+- git remote add origin https://github.com/vnienaber/git_overview.git
+
+- git push -u origin master
+
+- git log
+
+- git checkout 178d1a3d2372ae60b3bdb5182278c52383dd07bc
+
+- git revert 178d1a3d2372ae60b3bdb5182278c52383dd07bc
+
+---
+
+### Commit history
+
+![Git commits](images/commits.png)
+
+
+
+
+
+
+---
+
+### How do we want to use it?
+
+- command line
+- 
+
+---
+
+### When things go wrong...
+
+@ol
+
+- so lange nichts gepusht ist, alles (halbwegs) gut
+    - oft committen!
+- zur Not: Codestand sichern und neu clonen 
+
+@olend 
+
+
 
 ### Hands On 1 - Fork und Clone
  
