@@ -16,15 +16,74 @@
 ---
 
 ### Version Control to the Rescue!
-- Example: This presentation 
+- Example: this presentation 
 
----
 
 ---
 
 ![xccd](images/xkcd_comic.png)
 
+---
 
+### Adding and Staging Area 
+
+![Staging Area](images/staging.png)
+
+
+---
+
+### Commit
+
+- Commit saves **Changes** from the previous commit
+    - changes in files
+    - newly created files
+    - deletion of files
+    - changes in filenames
+- a commit can entail multiple changes
+
+### Go back in time! 
+
+![Time Machine](https://media.giphy.com/media/Vqvr9BGv1vhDi/giphy.gif)
+
+---
+
+###  Go back in time 
+
+@ol
+
+- `reset master to this commit`
+- spiele mit: `hard`, `mixed`, `soft`
+- `fast forward master to origin/master` (oberster commit)
+git reset HEAD~
+git add ...                                              
+git commit -c ORIG_HEAD 
+
+
+@olend
+
+
+
+
+
+(Source: [https://git-scm.com/about/staging-area](https://git-scm.com/about/staging-area))
+
+---
+
+### Making a commit
+
+Grace + Mona
+
+@ol
+
+-  Change stuff!
+- **GIT ADD**  "Unstaged Files"   
+- write a (fairly) commit message 
+- **GIT COMMIT** 
+
+@olend
+
+
+---
 
 # Download the data - Fork und Clone
 
@@ -73,64 +132,6 @@
 ![Git commits](images/commits.png)
 
 ---
-
-### Go back in time! 
-
-![Time Machine](https://media.giphy.com/media/Vqvr9BGv1vhDi/giphy.gif)
-
----
-
-###  Go back in time 
-
-@ol
-
-- `reset master to this commit`
-- spiele mit: `hard`, `mixed`, `soft`
-- `fast forward master to origin/master` (oberster commit)
-git reset HEAD~
-git add ...                                              
-git commit -c ORIG_HEAD 
-
-
-@olend
-
-
----
-
-### Commit
-
-- Commit saves **Changes** from the previous commit
-    - changes in files
-    - newly created files
-    - deletion of files
-    - changes in filenames
-- a commit can entail multiple changes
-
----
-
-### Adding and Staging Area 
-
-![Staging Area](images/staging.png)
-
-(Source: [https://git-scm.com/about/staging-area](https://git-scm.com/about/staging-area))
-
----
-
-### Making a commit
-
-Grace + Mona
-
-@ol
-
--  Change stuff!
-- **GIT ADD**  "Unstaged Files"   
-- write a (fairly) commit message 
-- **GIT COMMIT** 
-
-@olend
-
-
-
 
 ### Worklfow
 
