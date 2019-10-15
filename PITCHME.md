@@ -116,14 +116,14 @@
 
 ---
 
-# Sync data - Push und Pull
+# Sync data - Push and Pull
 
 
 
 ---
 
 
-### Sync: Git Pull und Git Push
+### Sync: Git Pull and Git Push
 
 @ol
 - Git Pull: download new commits from GitHub
@@ -296,8 +296,6 @@
 
 ### How do we want to use it?
 
-![xccd](images/xkcd_comic.png)
-
 - command line
 - clients (GitKraken etc. (Pricing?))
 
@@ -311,116 +309,3 @@
 
 
 
-
-
-
----
-
-### When things go wrong...
-
-@ol
-
-- so lange nichts gepusht ist, alles (halbwegs) gut
-    - oft committen!
-- zur Not: Codestand sichern und neu clonen 
-
-@olend 
-
-
-
-### Hands On 1 - Fork und Clone
- 
-#### Mona
-
-@ol
-
-- [https://github.com/friep/git-our-shit-together/](https://github.com/friep/git-our-shit-together/): Fork (oben rechts)
-- `https://github.com/{USERNAME}/git-our-shit-together` öffnet sich
-- unter Settings->Collaborators Grace hinzufügen
-
-@olend
-
----
-
-### Hands On 1 - Fork und Clone
-
-#### Mona & Grace
-
-![Git clone](images/gitclone.png)
-
-@ol
-
-- Gitkraken Clone Repo -> Clone with URL
-- Kopierten Link unter URL eintragen
-
-@olend
-
-
----
-
-### Oh!
-
-![Git clone error](images/gitclone_auth_error.png)
-
-
----
-
-### Oh! - Nicht-Gitkraken
-
-```
-Cloning into 'git-our-shit-together'...
-git@github.com: Permission denied (publickey).
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-```
-
----
-
-### SSH 
-
-@ul 
-
-- Download: 
-    - prinzipell jede*r @fa[lock-open] über `https` --> @fa[github]: @fa[check]
-    - `ssh`: vorherige Einrichtung ntowendig --> @fa[github]: @fa[question]
-- Upload: nur authentifizierte Personen @fa[lock]
-- --> @fa[github]: @fa[question]
-
-@ulend
-
----
-
-### Authentification - Passwort
-
-- bei jedem Push GitHub Passwort eingeben
-- beachte: clone `https://...` 
-
-![Git clone](images/gitclone_https.png)
-
---- 
-
-### Authentification - SSH
-- public key, private key cryptography (see: [Youtube](https://www.youtube.com/watch?v=AQDCe585Lnc))
-- only authenticate once-> 
-- clone `ssh://...`
-
----
-
-### Hands On 1.1: Gitkraken mit Github verbinden
-
-@ol
-
-- Gitkraken Profil (rechts oben)
-- Preferences->Authentification->GitHub
-- connect to GitHub
-- Generate SSH key and add to GitHub
-
-@olend
-
-
-
-
-
-### gerne den Tag über fragen! 
