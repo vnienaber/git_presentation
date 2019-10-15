@@ -66,7 +66,7 @@
 -  Change stuff!
 - **git status** check on changes
 - **git add**  "Unstaged Files"   
-- **git commit -m "commit messeage"** 
+- **git commit -m "commit message"**  commit files
 
 @olend
 
