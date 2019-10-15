@@ -19,9 +19,7 @@
 - Example: this presentation 
 
 
----
 
-![xccd](images/xkcd_comic.png)
 
 ---
 
@@ -57,6 +55,27 @@
 ![Lokal](images/git_workflow_lokal_with_solution.png)
 
 
+
+
+
+
+---
+
+### Making a commit
+
+@ol
+
+-  Change stuff!
+- **git status** check on changes
+- **git add**  "Unstaged Files"   
+- **git commit -m "commit messeage"** 
+
+@olend
+
+---
+
+
+![xccd_commit](images/git_commit.png)
 ---
 
 ### Go back in time! 
@@ -69,43 +88,11 @@
 
 @ol
 
-- `reset master to this commit`
-- spiele mit: `hard`, `mixed`, `soft`
-- `fast forward master to origin/master` (oberster commit)
-git reset HEAD~
-git add ...                                              
-git commit -c ORIG_HEAD 
-
-
+- **git log**: see previous commits
+- **git checkout <commit id>** revert changes and reset to this commit
 @olend
-
-
-
-
 
 (Source: [https://git-scm.com/about/staging-area](https://git-scm.com/about/staging-area))
-
-
-
-
----
-
-### Making a commit
-
-Grace + Mona
-
-@ol
-
--  Change stuff!
-- **git status** check on changes
-- **git add**  "Unstaged Files"   
-- **git commit -m "commit messeage"** 
-
-@olend
-
-### Commit Messages
-
-![xccd](images/git_commit.png)
 
 
 ---
@@ -181,7 +168,10 @@ Grace + Mona
 
 ---
 
-# When things go wrong...
+### When things go wrong...
+
+![merge](https://media.giphy.com/media/cFkiFMDg3iFoI/giphy.gif)
+
 
 ---
 
@@ -205,7 +195,7 @@ Grace + Mona
 
 ---
 
-### Git stash bei merge conflicts
+### Git stash and merge conflicts
 
 @ol
 
@@ -218,13 +208,11 @@ Grace + Mona
 @olend
 
 
----
 
-### Hands on 5: Merge conflicts
 
 ---
 
-# mit GitHub arbeiten
+# Working with GitHub
 
 
 ---
@@ -239,21 +227,7 @@ Grace + Mona
 
 @ulend
 
----
 
-### Hands On 4: Issue
-
-@ol
-
-- Mona: Issue erstellen: "Grace's LieblingsGIF fehlt"
-- Grace: füge der Präsentation eine neue Folie hinzu mit deinem Lieblingsgif (giphy -> copy link)
-- Grace: add + commit. verlinke issue Nummer in der commit message (#issueno)
-- Grace: push
-- Mona: Issue neu laden (STRG+R)
-
-@olend
-
----
 
 # Branches
 
@@ -272,6 +246,8 @@ Grace + Mona
 ### Branches
 
 @box[bg-blue text-black rounded](Branch#A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. You can think of them as a way to request a brand new working directory, staging area, and project history. [Source](https://www.atlassian.com/git/tutorials/using-branches))
+
+
 
 ---
 
@@ -293,31 +269,26 @@ Grace + Mona
 
 ---
 
+![git branch](images/branch.png)
+
+---
+
 ### Branches Workflow
 
 @ol
 
-- Branch erstellen
-- normal weiterarbeiten (pull-commit-push cycles)
-- (optional: merge andere branches in deinen branch um Updates zu bekommen)
-- merge Branch in master branch 
+- create branch
+- work on your stuff (pull-commit-push cycles)
+- (optional: merge different branches into yours to update them)
+- merge your branch into the Master branch
 
 @olend
 
----
-
-### Merging branches
-
-- Rechtsclick auf branch name / master
-- hängt davon ab, wer "weiter vorne" ist (?)
-    - wenn neue commits auf master: merge master into #1-add-branch-slides -> branch wird geupdatet
-    - wenn neue commits auf branch: merge #1-add-branch-slides into master -> master wird geupdatet
-
 
 
 ---
 
-### Branches Fazit
+### Branches 
 
 @ul
 
@@ -327,6 +298,26 @@ Grace + Mona
  
 @ulend
 
+---
+
+### How do we want to use it?
+
+![xccd](images/xkcd_comic.png)
+
+
+---
+
+### How do we want to use it?
+
+![xccd](images/xkcd_comic.png)
+
+- command line
+- clients (GitKraken etc. (Pricing?))
+
+---
+
+# Thats it. Thank you!
+![stash](https://media.giphy.com/media/QAsBwSjx9zVKoGp9nr/source.gif)
 
 ---
 
@@ -378,12 +369,6 @@ Grace + Mona
 
 
 
----
-
-### How do we want to use it?
-
-- command line
-- 
 
 ---
 
@@ -491,10 +476,7 @@ and the repository exists.
 @olend
 
 
----
 
-# Thats it. Thank you!
-![stash](https://media.giphy.com/media/QAsBwSjx9zVKoGp9nr/source.gif)
 
 
 ### gerne den Tag über fragen! 
