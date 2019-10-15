@@ -18,7 +18,7 @@
 ### Version Control to the Rescue!
 - Example: this presentation 
 
-# ![Help](https://media.giphy.com/media/bPCwGUF2sKjyE/source.gif)
+<!---[mind](https://media.giphy.com/media/Um3ljJl8jrnHy/source.gif) -->
 ---
 
 ### Adding and Staging Area 
