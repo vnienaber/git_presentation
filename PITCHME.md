@@ -51,6 +51,14 @@
 
 ---
 
+### Worklfow
+
+
+![Lokal](images/git_workflow_lokal_with_solution.png)
+
+
+---
+
 ### Go back in time! 
 
 ![Time Machine](https://media.giphy.com/media/Vqvr9BGv1vhDi/giphy.gif)
@@ -78,12 +86,6 @@ git commit -c ORIG_HEAD
 (Source: [https://git-scm.com/about/staging-area](https://git-scm.com/about/staging-area))
 
 
----
-
-### Worklfow
-
-
-![Lokal](images/git_workflow_lokal_with_solution.png)
 
 
 ---
@@ -95,11 +97,15 @@ Grace + Mona
 @ol
 
 -  Change stuff!
-- **GIT ADD**  "Unstaged Files"   
-- write a (fairly) commit message 
-- **GIT COMMIT** 
+- **git status** check on changes
+- **git add**  "Unstaged Files"   
+- **git commit -m "commit messeage"** 
 
 @olend
+
+### Commit Messages
+
+![xccd](images/git_commit.png)
 
 
 ---
@@ -116,17 +122,14 @@ Grace + Mona
 
 ### Git Local and Git Remote 
 
-... what? 
 
 **Lokal**: your PC
+
 **Remote**: in the Cloud (GitHub, GitLab, ...)
 
-![Gitkraken Lokal Remote](images/gitkraken_remote_lokal.png)
 
 
 ---
-
-
 
 # Sync data - Push und Pull
 
@@ -159,10 +162,10 @@ Grace + Mona
 
 @ol
 
-- Grace: Push 
-- Mona: Pull 
-- Mona: Push 
-- Grace: Pull
+- (**git remote add origin https://github.com/vnienaber/git_presentation.git**: add GitHub repository)
+- **git push -u origin master**: push changes to the master branch
+- **git pull origin master **: pull remote data (and merge with your local ones)
+
 
 @olend
 
