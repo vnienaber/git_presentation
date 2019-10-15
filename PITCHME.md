@@ -92,13 +92,11 @@
 - **git checkout <commit id>** revert changes and reset to this commit
 @olend
 
-(Source: [https://git-scm.com/about/staging-area](https://git-scm.com/about/staging-area))
 
 
 ---
 
-
-### Git  Hosting
+### Git Hosting
 
 - Cloud! For example:
 
@@ -110,7 +108,7 @@
 ### Git Local and Git Remote 
 
 
-**Lokal**: your PC
+**Local**: your PC
 
 **Remote**: in the Cloud (GitHub, GitLab, ...)
 
@@ -127,8 +125,10 @@
 
 ### Sync: Git Pull und Git Push
 
+@ol
 - Git Pull: download new commits from GitHub
 - Git Push: push locally made commits to GitHub
+@olend
 
 ---
 
@@ -168,7 +168,6 @@
 
 ---
 
-### When things go wrong...
 
 ![merge](https://media.giphy.com/media/cFkiFMDg3iFoI/giphy.gif)
 
@@ -228,17 +227,6 @@
 @ulend
 
 
-
-# Branches
-
----
-
-
-[picture of complicated gitkraken with a lot of branches]
-
----
-
-![Come on](https://media.giphy.com/media/HfFccPJv7a9k4/giphy.gif)
 
 ---
 
@@ -300,7 +288,6 @@
 
 ---
 
-### How do we want to use it?
 
 ![xccd](images/xkcd_comic.png)
 
@@ -319,50 +306,7 @@
 # Thats it. Thank you!
 ![stash](https://media.giphy.com/media/QAsBwSjx9zVKoGp9nr/source.gif)
 
----
 
-
-# Download the data - Fork und Clone
-
----
-
-### Fork und Clone
-
-
-@box[bg-blue text-black rounded](Repository#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed." ([Source](https://www.atlassian.com/git/tutorials/setting-up-a-repository)))
-
-@box[bg-blue text-black rounded](Fork#"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project." ([Source](https://help.github.com/articles/fork-a-repo/))
-
-
----
-
-# Save Data - Add and Commit 
-
-
---- 
-
-- git --version
-- git init
-- git status
-- git add .
-- git status
-- git commit - "First commit"
-
-- git remote add origin https://github.com/vnienaber/git_overview.git
-
-- git push -u origin master
-
-- git log
-
-- git checkout 178d1a3d2372ae60b3bdb5182278c52383dd07bc
-
-- git revert 178d1a3d2372ae60b3bdb5182278c52383dd07bc
-
----
-
-### Commit history
-
-![Git commits](images/commits.png)
 
 
 
