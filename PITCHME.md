@@ -10,17 +10,15 @@
 - masterthesis_FINAL_FINAL.docx
 
 ---
-
 ![Help](https://media.giphy.com/media/bPCwGUF2sKjyE/source.gif)
 
 ---
-
 ### Version Control to the Rescue!
 - Example: this presentation 
 
 <!---[mind](https://media.giphy.com/media/Um3ljJl8jrnHy/source.gif) -->
----
 
+---
 ### Adding and Staging Area 
 
 ![Staging Area](images/staging.png)
@@ -35,10 +33,9 @@
 
 
 ---
-
 ### Commit
 
-- Commit saves **Changes** from the previous commit
+- Commit saves **changes** from the previous commit
     - changes in files
     - newly created files
     - deletion of files
@@ -46,19 +43,13 @@
 - a commit can entail multiple changes
 
 ---
-
 ### Worklfow
 
 
 ![Lokal](images/git_workflow_lokal_with_solution.png)
 
 
-
-
-
-
 ---
-
 ### Making a commit
 
 @ol
@@ -71,17 +62,14 @@
 @olend
 
 ---
-
-
 ![xccd_commit](images/git_commit.png)
----
 
+---
 ### Go back in time! 
 
 ![Time Machine](https://media.giphy.com/media/Vqvr9BGv1vhDi/giphy.gif)
 
 ---
-
 ###  Go back in time 
 
 @ol
