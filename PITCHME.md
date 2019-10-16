@@ -1,5 +1,5 @@
 
-# Git(hub) 
+# Git(Hub) 
 
 ---
 ### Why Git?
